@@ -1,0 +1,6 @@
+require_relative 'app/homeworks'
+require_relative 'app/human'
+require_relative 'app/mentor'
+require_relative 'app/notifications'
+require_relative 'app/student'
+require_relative 'app/run'

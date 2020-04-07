@@ -25,7 +25,7 @@ module App
       @notifications << student.homeworks.last if @students.include?(student)
     end
 
-    def create_homework(title, homework = Homeworks)
+    def create_homework(title, homework = Homework)
       @homeworks << homework.new(title, self)
     end
   end

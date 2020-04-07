@@ -1,5 +1,5 @@
 module App
-  class Homeworks
+  class Homework
     attr_reader :title, :author
 
     def initialize(title, author)
